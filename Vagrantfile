@@ -7,9 +7,6 @@ Vagrant::Config.run do |config|
   config.vm.box = "centos5.6basebox"
   config.vm.box_url = "http://tag1consulting.com/sites/default/files/centos56.basebox.box"
 
-  config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = "manifests"
-    puppet.manifest_file  = "base.pp"
-  end
+  config.vm.provision :puppet
 
 end

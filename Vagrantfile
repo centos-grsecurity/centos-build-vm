@@ -4,8 +4,8 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "CentOS6"
-  config.vm.box_url = "http://tag1consulting.com/sites/default/files/centos6.box"
+  config.vm.box = "centos5.6basebox"
+  config.vm.box_url = "http://tag1consulting.com/sites/default/files/centos56.basebox.box"
 
   config.vm.provision :puppet
 

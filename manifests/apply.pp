@@ -15,6 +15,10 @@ package { "rpmdevtools":
 package { "rpm-build":
   ensure => latest,
 }
+package { "rng-tools':
+  ensure => latest,
+}
+
 #file { "/home/build/.rpmmacros":
 #  owner => build,
 #  group => mock,

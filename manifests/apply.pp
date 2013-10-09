@@ -15,7 +15,7 @@ package { "rpmdevtools":
 package { "rpm-build":
   ensure => latest,
 }
-package { "rng-tools':
+package { "rng-tools":
   ensure => latest,
 }
 
